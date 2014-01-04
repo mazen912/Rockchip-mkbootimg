@@ -110,7 +110,7 @@ int main(int argc, char **argv)
     int fd;
     SHA_CTX ctx;
     unsigned char sha[SHA_DIGEST_LENGTH];
-    unsigned base           = 0x10000000;
+    unsigned base           = 0x60400000;
     unsigned kernel_offset  = 0x00008000;
     unsigned ramdisk_offset = 0x01c00000;
     unsigned second_offset  = 0x00b00000;
